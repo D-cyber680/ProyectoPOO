@@ -22,8 +22,8 @@ public class Opciones extends javax.swing.JFrame {
         initComponents();
         BFondo.setIcon(setIcono("/resources/FondoB.JPG", BFondo));
         BFondo.setPressedIcon(setIconoPresionado("/resources/FondoB2.JPG", BFondo, 10, 10));
-        BEstadisticas.setIcon(setIcono("/resources/EstadísticasB.JPG", BEstadisticas));
-        BEstadisticas.setPressedIcon(setIconoPresionado("/resources/EstadísticasB2.JPG", BEstadisticas, 10, 10));
+        BEstadisticas.setIcon(setIcono("/resources/ModoB.JPG", BEstadisticas));
+        BEstadisticas.setPressedIcon(setIconoPresionado("/resources/ModoB2.JPG", BEstadisticas, 10, 10));
         BMusica.setIcon(setIcono("/resources/MusicaB.JPG", BMusica));
         BMusica.setPressedIcon(setIconoPresionado("/resources/MusicaB2.JPG", BMusica, 10, 10));
         BOpciones.setIcon(setIcono("/resources/OpcionesB3.JPG", BOpciones));
@@ -132,11 +132,6 @@ public class Opciones extends javax.swing.JFrame {
     }//GEN-LAST:event_BFondoActionPerformed
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
